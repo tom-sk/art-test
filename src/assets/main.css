@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'DINPro Bold';
+        font-style: bold;
+        font-weight: 700;
+        font-display: optional;
+        src: url('fonts/DINPro Bold.otf') format("opentype");
+    }
+
+    @font-face {
+        font-family: 'DINPro Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-display: optional;
+        src: url('fonts/DINPro Regular.otf') format("opentype");
+    }
+}
+
+body {
+    @apply text-black;
+}
