@@ -54,7 +54,7 @@ const navigation = [
             <DisclosureButton
               v-for="item in navigation"
               :key="item.name"
-              class="py-4 text-3xl font-normal lg:text-5xl"
+              class="py-4 text-left text-3xl font-normal lg:text-5xl"
               :href="item.href"
             >
               <RouterLink
